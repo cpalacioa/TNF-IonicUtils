@@ -10,7 +10,7 @@ angular.module('tnf.IonicUtils', ['ionic'])
       link: function ($scope, $element, $attrs, $controller) {
         $scope.signaturePadModel = {};
 
-        $ionicModal.fromTemplateUrl('components/signature/signaturePad.html', {
+        $ionicModal.fromTemplateUrl('components/signature_pad/signaturePad.html', {
           animation: 'slide-in-up',
           scope: $scope,
         }).then(function(modal) {
@@ -62,6 +62,6 @@ angular.module('tnf.IonicUtils', ['ionic'])
       require: 'ngModel',
       replace: true,
       restrict: 'EA',
-      templateUrl: 'components/signature/signatureButton.html'
+      templateUrl: 'components/signature_pad/signaturePadButton.html'
     };
   });
