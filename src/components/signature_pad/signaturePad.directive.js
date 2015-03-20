@@ -1,5 +1,5 @@
-angular.module('TNF-IonicUtils', ['ionic'])
-  .directive('signature', function ($ionicModal) {
+angular.module('tnf.IonicUtils', ['ionic'])
+  .directive('tnfSignaturePad', function ($ionicModal) {
     var canvas = null,
       ratio = 1.0;
 
@@ -61,7 +61,7 @@ angular.module('TNF-IonicUtils', ['ionic'])
       },
       require: 'ngModel',
       replace: true,
-      restrict: 'A',
+      restrict: 'EA',
       templateUrl: 'components/signature/signatureButton.html'
     };
   });

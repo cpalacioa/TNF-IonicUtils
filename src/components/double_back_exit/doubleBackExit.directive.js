@@ -1,9 +1,9 @@
-angular.module('TNF-IonicUtils', ['ionic'])
-  .directive('doublePressExit', function ($ionicPlatform, $timeout) {
+angular.module('tnf.IonicUtils', ['ionic'])
+  .directive('tnfDblBackExit', function ($ionicPlatform, $timeout) {
     return {
       scope: {},
       restrict: 'E',
-      template: '<div class="double-press-exit-label"><span class="label">Press Again To Exit</span></div>',
+      template: '<div class="double-back-exit-label"><span class="label">Press Again To Exit</span></div>',
       replace: true,
       transclude: true,      
       link: function($scope, iElm, iAttrs, controller) {
