@@ -43,6 +43,7 @@ angular.module('tnf.IonicUtils', ['ionic'])
         };
 
         $scope.resizeCanvas = function () {
+          var ratio = 1.0;
           canvas.width = canvas.offsetWidth * ratio;
           canvas.height = canvas.offsetHeight * ratio;
           canvas.getContext('2d').scale(ratio, ratio);          
