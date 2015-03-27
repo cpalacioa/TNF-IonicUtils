@@ -3,10 +3,10 @@ Ionic Utils developed by The Ninja Factory Team
 
 
 ###Components
-* DoubleClickExit
+* DblBackExit
 * SignaturePad
  
-**DoubleClickExit**
+**DblBackExit**
 
 Simply add ```<tnf-dbl-back-exit></tnf-dbl-back-exit>``` in any template where you want the user to double press the back hardware button from the device to exit your app.
 
